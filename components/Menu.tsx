@@ -24,9 +24,9 @@ export default function Menu() {
 					</div>
 					<Navbar />
 					<div className="hidden md:flex items-start content-end">
-						<a className="flex py-3 px-3" href="https://www.twitter.com/OnlyPlaybook" target="_blank"><BsTwitter /></a>
-						<a className="flex py-3 px-3" href="https://www.instagram.com/TheOnlyPlaybook" target="_blank"><GrInstagram /></a>
-						<a className="flex py-3 px-3" href="https://www.youtube.com/channel/UCitdTZxilzAuZW7MB_2GZug" target="_blank"><GrYoutube /></a>
+						<a className="flex py-3 px-3" href="https://www.twitter.com/OnlyPlaybook" rel="noreferrer" target="_blank"><BsTwitter /></a>
+						<a className="flex py-3 px-3" href="https://www.instagram.com/TheOnlyPlaybook" rel="noreferrer" target="_blank"><GrInstagram /></a>
+						<a className="flex py-3 px-3" href="https://www.youtube.com/channel/UCitdTZxilzAuZW7MB_2GZug" rel="noreferrer" target="_blank"><GrYoutube /></a>
 						<Link
 							href="/login"
 							className="flex py-2 px-2 font-medium rounded hover:bg-green-500 hover:text-white transition duration-300"
